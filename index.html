@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/index.css"/>
+		<script src="js/jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/lrc.js" type="text/javascript" charset="utf-8"></script>
+		<script src="index.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div class="main">
+			<div class="top">
+				<div class="left">
+					<div class="picbox">
+						<div class="pic">
+							<img src="images/0.jpg" class="cdimg"/>
+						</div>
+					</div>
+					<div class="cdon">
+						<img src="images/cd_tou.png" />
+					</div>
+				</div>
+				<div class="right">
+					<h2 class="name">晚安喵</h2>
+					<p>
+						<span class="singer">艾索</span>
+						<span>专辑&nbsp;:</span>
+						<span class="album">罗小黑战记</span>
+					</p>
+					<audio src="music/艾索 - 晚安喵.mp3" type="audio/mp3" ></audio>
+					<audio src="music/伦桑,裂天,小魂 - 权御天下.mp3"></audio>
+					<textarea class="lrc" cols="70" rows="10"></textarea>
+					<div class="content">
+					    <ul id="lrc_list">
+					    	<li></li>
+					    </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="playbox">
+			<span class="iconfont" id="prevbtn">&#xe62e;</span>
+			<span id="play" class="iconfont">&#xe62d;</span>
+			<span class="iconfont" id="nextbtn">&#xe62f;</span>
+			<span class="protime">
+				<span>00</span>
+				<b>:</b>
+				<i>00</i>
+			</span>
+			<span class="time">
+				<p class="pro"></p>
+			</span>
+			<span class="toatime">
+				<span>00</span>
+				<b>:</b>
+				<i>00</i>
+			</span>
+			
+			<span class="iconfont" id="volumebtn">&#xe632;</span>
+			<span class="volumebox">
+				<p class="volume"></p>
+			</span>
+			
+			<span class="iconfont" id="listbtn">&#xe634;</span>
+			<div class="list" id="musiclist">
+				<dl>
+					<dt>歌曲列表</dt>
+					<dd>
+						<ul>
+							<li>
+								<span>歌曲名</span>
+								<b>专辑</b>
+								<i>歌手</i>
+							</li>
+							<li>
+								<span>晚安喵</span>
+								<b>罗小黑战记</b>
+								<i>艾索</i>
+							</li>
+							<li>
+								<span>九九八十一</span>
+								<b>满汉全席</b>
+								<i>满汉全席</i>
+							</li>
+							<li>
+								<span>Closer</span>
+								<b>Aash Mehta Flip</b>
+								<i>Aash Mehta</i>
+							</li>
+							<li>
+								<span>Butterflies</span>
+								<b>Alex G</b>
+								<i>Alex G</i>
+							</li>
+							<li>
+								<span>Stuttering</span>
+								<b>Stuttering</b>
+								<i>Fefe Dobson</i>
+							</li>
+							<li>
+								<span>权御天下</span>
+								<b>满汉全席</b>
+								<i>满汉全席</i>
+							</li>
+						</ul>
+					</dd>
+				</dl>
+			</div>
+			<span class="iconfont" id="refresh">&#xe61a;</span>
+			<span class="iconfont" id="randbtn">&#xe64a;</span>
+			
+		</div>
+	</body>
+</html>
